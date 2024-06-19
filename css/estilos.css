@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+.pie{
+    background: #ffffff;
+}
+img{
+    width: 40px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+span{
+    font-size: 23px;
+}
+.fb{
+   
+    padding: 8px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+.tw{
+    
+    padding: 8px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+.in{
+    
+    padding: 8px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+.logotipo{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.section div{
+    display: flex;
+    flex-direction: column;
+}
+div h2{
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+a{
+    color: rgba(0, 0, 0, 0.527);
+    text-decoration: none;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    background: none;
+    border: solid 2px white;
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
